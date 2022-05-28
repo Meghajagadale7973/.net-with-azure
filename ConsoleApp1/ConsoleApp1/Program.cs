@@ -4,7 +4,7 @@ namespace ConsoleApp1
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
 
             {
@@ -12,6 +12,9 @@ namespace ConsoleApp1
                 Console.WriteLine("Before Swapping \na=" + x + "  b=" + y);
                 Swap(ref x, ref y);
                 Console.WriteLine("After Swapping \na=" + x + "  b=" + y);
+
+
+
             }
 
             static void Swap(ref int a, ref int b)
