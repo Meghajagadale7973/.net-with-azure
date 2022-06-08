@@ -5,15 +5,15 @@ namespace ConsoleApp7
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
-            Console.WriteLine("plese enter your name");
-            string name = Console.ReadLine();
-            SampleDB1Context db = new SampleDB1Context();
-            Tblsample tblsample = new Tblsample();
-             tblsample.Text = name;
-             db.Tblsamples.Add(tblsample);
-             db.SaveChanges();
+           // Console.WriteLine("plese enter your name");
+            //string name = Console.ReadLine();
+           SampleDB1Context db = new SampleDB1Context();
+           // Tblsample tblsample = new Tblsample();
+           //  tblsample.Text = name;
+          //   db.Tblsamples.Add(tblsample);
+             //db.SaveChanges();
 
          Console.WriteLine("hello word");
 
@@ -29,7 +29,6 @@ namespace ConsoleApp7
                 db.Tblsamples.Remove(DeleteObject);
                    db.SaveChanges();
 
-
             Console.WriteLine("Pleae enter id of your name which you want to update");
             int InsertItem = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Please enter the new name");
@@ -43,6 +42,7 @@ namespace ConsoleApp7
             {
                 Console.WriteLine(item.Id + " | " + item.Text);
             }
+
         }
     }
     
