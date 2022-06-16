@@ -3,12 +3,13 @@ using System.Collections.Generic;
 
 #nullable disable
 
-namespace customerapi.Models
+namespace CustomerApi.Models
 {
     public partial class Customer
     {
-        public decimal CustomerId { get; set; }
+        public int Id { get; set; }
         public string CustomerName { get; set; }
-        public decimal? CustomerAmount { get; set; }
+        public int? CustomerCode { get; set; }
+        public int? CustomerAmount { get; set; }
     }
 }

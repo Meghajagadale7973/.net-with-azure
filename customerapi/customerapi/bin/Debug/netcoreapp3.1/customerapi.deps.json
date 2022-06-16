@@ -29,7 +29,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "customerapi/1.0.0": {
+      "CustomerApi/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.17",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
@@ -309,10 +309,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "customerapi.dll": {}
+          "CustomerApi.dll": {}
         },
         "compile": {
-          "customerapi.dll": {}
+          "CustomerApi.dll": {}
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -3072,7 +3072,7 @@
     }
   },
   "libraries": {
-    "customerapi/1.0.0": {
+    "CustomerApi/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

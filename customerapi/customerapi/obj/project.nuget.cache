@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VDhTNBIvikriymz1KFQGeMMPOttC37IBakShqQK02PV1kRXiUrZw9+uelG2HvT2KaBoR9vBNd/nhovqxN59OHg==",
+  "dgSpecHash": "nIPgQryxHHYAbVybqZe2GhDiZa77eEZ/EFM1GVcbc/tu9/zqXWq6TCKhqZn4NPOvPDtFRV7qjjXJhtgi54Al8Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Shubham\\Desktop\\New folder\\customerapi\\customerapi\\customerapi.csproj",
+  "projectFilePath": "C:\\Users\\Shubham\\Desktop\\New folder\\customerapi\\CustomerApi\\CustomerApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Shubham\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Shubham\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
