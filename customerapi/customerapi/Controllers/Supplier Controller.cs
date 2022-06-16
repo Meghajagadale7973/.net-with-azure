@@ -18,13 +18,13 @@ namespace CustomerApi.Controllers
             db = _db;
         }
         [HttpGet]
-        public IEnumerable<Supplier> Get()
+        public IEnumerable<Supplier>Get()
         {
             return db.Suppliers;
         }
 
         [HttpPost]
-        public string Post([FromBody] Supplier supplier)
+        public string Post([FromBody]  Supplier supplier)
         {
             db.Suppliers.Add(supplier);
             db.SaveChanges();

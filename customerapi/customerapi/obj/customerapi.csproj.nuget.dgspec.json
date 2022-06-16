@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Shubham\\Desktop\\New folder\\customerapi\\CustomerApi\\CustomerApi.csproj": {}
+    "C:\\Users\\Shubham\\Desktop\\New folder\\CustomerApi\\CustomerApi\\CustomerApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Shubham\\Desktop\\New folder\\customerapi\\CustomerApi\\CustomerApi.csproj": {
+    "C:\\Users\\Shubham\\Desktop\\New folder\\CustomerApi\\CustomerApi\\CustomerApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Shubham\\Desktop\\New folder\\customerapi\\CustomerApi\\CustomerApi.csproj",
+        "projectUniqueName": "C:\\Users\\Shubham\\Desktop\\New folder\\CustomerApi\\CustomerApi\\CustomerApi.csproj",
         "projectName": "CustomerApi",
-        "projectPath": "C:\\Users\\Shubham\\Desktop\\New folder\\customerapi\\CustomerApi\\CustomerApi.csproj",
+        "projectPath": "C:\\Users\\Shubham\\Desktop\\New folder\\CustomerApi\\CustomerApi\\CustomerApi.csproj",
         "packagesPath": "C:\\Users\\Shubham\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Shubham\\Desktop\\New folder\\customerapi\\CustomerApi\\obj\\",
+        "outputPath": "C:\\Users\\Shubham\\Desktop\\New folder\\CustomerApi\\CustomerApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Shubham\\AppData\\Roaming\\NuGet\\NuGet.Config",
