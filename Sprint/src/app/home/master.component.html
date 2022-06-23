@@ -1,0 +1,40 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand  navbar -left" [routerLink]="['home']"><img src="../../assets/Logo.png" width="50%"/></a>
+    <a class="navbar-brand " [routerLink]="['home']"><input class="form-control me-2" type="search" placeholder="Search product" aria-label="Search"> </a>
+ 
+   
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class=" nav navbar-nav  navbar-Right" >
+        <li class="nav-item active">
+          <a class="nav-link" [routerLink]="['home']">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" [routerLink]="['admin/add']">admin</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['user/add']">user</a>
+        </li>
+       
+        <li class="nav-item">
+          <a class="nav-link" routerLink="['login/add']">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="['Register/add']">Register</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link"><img src="../../assets/cart.jpg" width="15px" height="20px">cart</a>
+        </li>
+          
+      </ul>
+    </div>
+  </nav>
+  <div class="container-fluid">
+  <router-outlet></router-outlet>
+  </div>
+
+ 

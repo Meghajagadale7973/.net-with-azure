@@ -1,0 +1,49 @@
+<table>
+    <tr>
+        <td>Order Id</td>
+        <td>
+            <input [(ngModel)]="UserModel.orderId" type="text">
+        </td>
+    </tr>
+    <tr>
+        <td>Order Name</td>
+        <td>
+            <input [(ngModel)]="UserModel.orderName" type="text">
+        </td>
+    </tr>
+    <tr>
+        <td>Order Price  </td>
+        <td>
+            <input [(ngModel)]="UserModel.orderPrice" type="text">
+        </td>
+    </tr>
+    <input type="submit" (click)="AddUser()">
+    <input type="button" (click)="getData()" value="getData"/>
+</table>
+<!-- {{UserModel.OrderId}}
+{{UserModel..OrderName}}
+{{UserModel..OrderPrice}} -->
+
+<table border="2">
+    <tr>
+        <td>Order Id</td>
+        <td>Order Name</td>
+        <td>Order Price</td>
+        <td>Actions</td>
+    </tr>
+    <tr *ngFor="let item of UserModels">
+        <td>
+            {{item.orderId}}
+        </td>
+        <td> {{item.orderName}}
+        </td>
+        <td> {{item.orderPrice}}
+        </td>
+        <td>
+            <input type="button" value="Edit" (click)="EditUser(item)" />
+            <input type="button" value="Delete" (click)="DeleteUser(item)" />
+        </td>
+       
+       
+    </tr>
+</table>
